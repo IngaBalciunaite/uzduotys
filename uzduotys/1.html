@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirma užduotis</title>
+    <!-- <style>
+        body {
+          background-color: whitesmoke;
+        }
+        
+        </style> -->
+ 
+</head>
+
+<body>
+
+    <button type="button" >Pirma užduotis</button>
+        
+    <script>
+        let color = ["white","red" ];
+  let i =0;
+  document.querySelector("button").addEventListener("click", function(){
+      i = 1 < color.length ? ++i :0 ;
+      document.querySelector("body").style.background = color [i]
+  })
+    
+    </script>
+    
+<!-- Naudojausi nuoroda:
+https://www.youtube.com/watch?v=Wj9JpCuMV60 -->
+
+
+    </body>
+
+</html>
